@@ -85,6 +85,7 @@ function App(){
                 <CreateProduct createProduct={createProduct}></CreateProduct>
                 <FilterProduct filterValueSelected={onFilterValueSelected}></FilterProduct>
                 <ProductList newProductList={filteredProductList}></ProductList>
+                <DeleteProduct></DeleteProduct>
             </div>
         </div>
 }
